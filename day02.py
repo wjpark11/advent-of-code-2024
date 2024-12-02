@@ -43,7 +43,6 @@ def part2(inputs: list) -> int:
     return safe_reports
 
 
-
 if __name__ == "__main__":
     print(part1(inputs))
     print(part2(inputs))
