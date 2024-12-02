@@ -28,7 +28,7 @@ def part1(inputs: list) -> int:
 def is_safe_if_removing_one(report: list[int]) -> bool:
     if is_safe(report):
         return True
-    for i, item in enumerate(report):
+    for i, _ in enumerate(report):
         copied_report = report.copy()
         copied_report.pop(i)
         if is_safe(copied_report):
