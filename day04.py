@@ -57,7 +57,6 @@ def part2(inputs: list[str]) -> int:
     return xmas_count
 
 
-
 if __name__ == "__main__":
     print(part1(inputs))
     print(part2(inputs))
